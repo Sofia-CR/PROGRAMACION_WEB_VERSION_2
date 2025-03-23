@@ -1,0 +1,137 @@
+/* General */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../imagenes/MAQUETADO.jpg');
+}
+
+/* Navbar */
+.navbar {
+    background-color: #a4c8f1 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #000 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff !important;
+}
+
+/* Contenedor principal */
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 10px; /* Cambiado de 80px a 10px */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Título */
+h2 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #007bff;  /* Color azul */
+    margin-bottom: 30px;
+}
+
+/* Tarjetas de formulario */
+.card {
+    background-color: #a4c8f1;  /* Fondo azul claro */
+    padding: 15px;
+    margin-bottom: 15px;  /* Ajustado a 15px */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;  /* Color blanco */
+    
+}
+
+/* Contenedores de campos */
+.field-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.field-container label {
+    font-weight: bold;
+    color: #fff;  /* Color blanco para los labels */
+    font-size: 14px;
+    width: 180px;
+}
+
+.field-container input, .field-container select {
+    width: calc(100% - 190px);
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+}
+
+/* Formularios */
+.form-label {
+    font-weight: bold;
+    color: #000000;  /* Color blanco */
+}
+
+.form-control {
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+/* Botón */
+.btn {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;  /* Fondo azul */
+    border: none;
+    color: white;  /* Texto blanco */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;  /* Color más oscuro cuando pasa el mouse */
+}
+
+/* Ajuste de columnas en formularios */
+.row .col-md-6 {
+    margin-bottom: 15px;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 767px) {
+    .container {
+        padding: 5px;  /* Reducido el padding para pantallas pequeñas */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+
+    .field-container {
+        flex-direction: column;  /* Alinea campos en columna en pantallas pequeñas */
+        margin-bottom: 10px;
+    }
+
+    .field-container label {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .field-container input, .field-container select {
+        width: 100%;
+        padding: 8px;
+    }
+}
