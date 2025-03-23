@@ -1,0 +1,83 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    min-height: 100vh;
+    background-image: url('C:\\Users\\sofia\\Documents\\redes\\MAQUETADO.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Hace que la imagen permanezca fija al hacer scroll */
+}
+
+.navbar {
+    background-color: #a4c8f1;
+}
+
+.navbar-brand img {
+    max-width: 150px;
+}
+
+/* Estilo para la frase "CITAS MÉDICAS" */
+.content h2 {
+    color: #007bff; /* Azul oscuro */
+    margin-bottom: 30px; /* Espacio adicional debajo del título */
+    font-weight: bold; /* Negritas para destacar */
+}
+
+/* Botones apilados y con el mismo tamaño */
+.shift-buttons .btn-primary {
+    font-weight: bold; /* Negritas para destacar */
+    background-color: #a4c8f1; /* Azul claro */
+    color: #000000; /* Texto negro */
+    padding: 15px; /* Tamaño uniforme */
+    border: none; /* Eliminar bordes del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 100%; /* Asegurar que ambos tengan el mismo tamaño */
+}
+
+/* Separación entre los botones Matutino/Vespertino */
+.shift-buttons {
+    display: flex;
+    flex-direction: column; /* Colocar botones en columna */
+    align-items: center; /* Centrar horizontalmente */
+    gap: 15px; /* Espacio uniforme entre botones */
+}
+
+
+.continue-button {
+    font-weight: bold; /* Negritas para destacar */
+    background-color: #007bff; /* Azul oscuro */
+    color: #ffffff; /* Texto en blanco */
+    padding: 10px 20px; /* Tamaño ajustado */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-top: 30px; /* Separación superior adicional */
+    border: none; /* Sin bordes */
+    cursor: pointer; /* Indicador de clic */
+    text-align: center; /* Centrado del texto */
+    text-decoration: none; /* Sin subrayado */
+    transition: none; /* Sin efectos de cambio */
+}
+
+.continue-button:hover,
+.continue-button:active {
+    background-color: #007bff; /* Sin cambios */
+    color: #ffffff; /* Sin cambios */
+}
+/* Botones Matutino y Vespertino en columna */
+.shift-buttons {
+    display: flex;
+    flex-direction: column; /* Colocar elementos en columna */
+    align-items: center; /* Centrar botones horizontalmente */
+    gap: 15px; /* Espacio entre los botones */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.shift-buttons {
+    display: flex;
+    flex-direction: column; /* Colocar los botones verticalmente */
+    align-items: center; /* Centrar los botones horizontalmente */
+    gap: 15px; /* Espacio entre los botones */
+}
+
+
+
+

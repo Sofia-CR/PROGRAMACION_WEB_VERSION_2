@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('C:\\Users\\sofia\\Documents\\redes\\MAQUETADO.jpg'); /* Asegúrate de colocar la imagen en la carpeta 'img' */
+    background-size: cover;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login-container {
+    background-color: #a4c8f1;
+    padding: 50px; /* Incrementé el espacio interior */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px; /* Aumenté el ancho máximo del contenedor */
+    width: 100%;
+}
+
+
+.login-container img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.login-container h2 {
+    color: #ffffff;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.form-label {
+    font-weight: 700;
+    color: #062554;
+}
+
+.btn-primary {
+    background-color: #0056b3;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #004494;
+}

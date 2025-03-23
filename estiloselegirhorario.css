@@ -1,0 +1,79 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    min-height: 100vh;
+    background-image: url('C:\\Users\\sofia\\Documents\\redes\\MAQUETADO.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Hace que la imagen permanezca fija al hacer scroll */
+}
+
+.navbar {
+    background-color: #a4c8f1;
+}
+
+.navbar-brand img {
+    max-width: 150px;
+}
+
+h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+.button {
+    padding: 15px 30px; /* Tamaño del botón */
+    font-size: 18px; /* Tamaño del texto */
+    color: white; /* Texto blanco */
+    background-color: #007bff; /* Fondo azul oscuro */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Indicador de clic */
+    text-align: center; /* Centrado del texto */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: 700; /* Texto en negritas */
+}
+
+.button:hover {
+    background-color: #007bff; /* Azul más oscuro al pasar el mouse */
+}
+
+
+.hour-button:active {
+    background-color: #007bff; /* Color al hacer clic */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Efecto de clic (sombra más tenue) */
+}
+
+
+#selectedHour {
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+}
+
+#confirmButton {
+    padding: 10px 20px; /* Espacio interno del botón */
+    font-size: 18px; /* Tamaño de la fuente */
+    font-weight: 700; /* Grosor del texto */
+    background-color: #007bff; /* Color de fondo igual que los otros botones */
+    color: white; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    border: none; /* Sin bordes visibles */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Suavidad en los efectos */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra elegante */
+    cursor: pointer; /* Cambiar el cursor a mano al pasar */
+}
+
+#confirmButton:hover {
+    background-color: #007bff; /* Color al pasar el cursor */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Sombra más marcada en hover */
+}
+
+#confirmButton:active {
+    background-color: #007bff; /* Color al hacer clic */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Efecto de clic (sombra más tenue) */
+}
+

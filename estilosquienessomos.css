@@ -1,0 +1,145 @@
+/* Tipografía y estilos personalizados */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f0f8ff;
+    background-image: url('C:\\Users\\sofia\\Documents\\redes\\MAQUETADO.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Hace que la imagen permanezca fija al hacer scroll */
+    position: relative; /* Necesario para colocar el rectángulo transparente */
+}
+
+/* Rectángulo negro transparente */
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Negro con 50% de opacidad */
+    z-index: 1; /* Se asegura de estar encima del fondo */
+}
+
+/* Aseguramos que el contenido esté por encima del rectángulo */
+body * {
+    position: relative;
+    z-index: 2;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+.navbar a {
+    color: white; /* Color blanco para las palabras */
+    text-decoration: none; /* Elimina subrayado */
+    font-weight: bold; /* Opcional: hace el texto más llamativo */
+}
+
+.navbar a:hover {
+    color: #d1e7dd; /* Color suave al pasar el cursor */
+    text-decoration: underline; /* Subrayado como efecto en hover */
+}
+
+
+.hero {
+    background: linear-gradient(90deg, #007bff, #33ccff);
+    color: white;
+    padding: 60px 20px;
+    box-shadow: inset 0 -10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.servicios {
+    background-color: #d1e7dd; /* Fondo verde suave */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.servicio img {
+    border: 5px solid #007bff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.servicio img:hover {
+    transform: scale(1.05);
+}
+
+.razones {
+    background: linear-gradient(to right, #eef2f3, #d4e6f1);
+}
+
+footer {
+    background: #333333;
+    color: #ffffff;
+}
+
+footer a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+/* Sección "Quiénes Somos" */
+.quienes-somos {
+    position: relative;
+    background-image: url('C:\\Users\\sofia\\Documents\\redes\\MAQUETADO.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px 20px; /* Espaciado interno */
+    min-height: 400px; /* Altura mínima */
+}
+
+/* Rectángulo negro transparente */
+.quienes-somos::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Negro con 60% de opacidad */
+    z-index: 1;
+}
+
+/* Contenido centrado y estilizado */
+.quienes-somos .contenido {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white; /* Texto blanco */
+    font-family: 'Lato', sans-serif;
+}
+
+.quienes-somos h2 {
+    font-size: 36px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Sombra para el título */
+}
+
+.quienes-somos p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px; /* Limita el ancho del texto */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra para mejorar legibilidad */
+}
+
+
+.navbar .nav-link {
+    color: white !important; /* Asegura que el texto sea blanco */
+    text-decoration: none; /* Elimina subrayado */
+    font-weight: bold; /* Opcional: hace el texto más llamativo */
+}
+
+.navbar .nav-link:hover {
+    color: #d1e7dd !important; /* Color suave al pasar el cursor */
+    text-decoration: underline; /* Subrayado como efecto en hover */
+}
